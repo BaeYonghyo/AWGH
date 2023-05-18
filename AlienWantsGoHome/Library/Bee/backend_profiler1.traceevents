@@ -1,0 +1,520 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684379901590005, "dur":1113, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379901591121, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684379901591186, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684379901591198, "dur":873, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684379901592130, "dur":504, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379901592634, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903555917, "dur":351, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556268, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556278, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556279, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556287, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556288, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556293, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556294, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556299, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556301, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556305, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556306, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556311, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556313, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556318, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556319, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556324, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556326, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556330, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556332, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556336, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556338, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556343, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556344, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556348, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556361, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903556383, "dur":1350, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684379901592038, "dur":603, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379901592644, "dur":6172, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379901598835, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684379901598846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379901599920, "dur":524, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684379901600448, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684379901600472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379901600644, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684379901604095, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684379901604750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379901605114, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684379901606643, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379901607048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379901607242, "dur":1781336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903388597, "dur":1216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903389816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903389824, "dur":5546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903395386, "dur":795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903396185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903396189, "dur":7442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903403645, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903404126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903404132, "dur":4912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903409059, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903409446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903409451, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903412869, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903413314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903413318, "dur":4456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903417790, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903418228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903418233, "dur":11496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903429743, "dur":1201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903430947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903430951, "dur":6222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903437186, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903437882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903437887, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684379903444195, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684379903444214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684379903444219, "dur":86293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684379903530530, "dur":25390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379901592079, "dur":567, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379901592647, "dur":6172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379901598836, "dur":1786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1684379901600624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379901600935, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1684379901604500, "dur":52797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379901657303, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379901657352, "dur":40042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379901697487, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379901697842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379901697847, "dur":1694683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903392546, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903393128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903393134, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903396082, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903396612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903396616, "dur":7301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903403935, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903404484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903404489, "dur":4604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903409110, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903409518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903409522, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903412890, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903413370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903413373, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903417543, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903418024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903418028, "dur":11763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903429803, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903430329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903430339, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903433824, "dur":1430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903435258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903435266, "dur":11071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684379903446353, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1684379903446366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903446370, "dur":61286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1684379903507692, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684379903507714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684379903507719, "dur":48153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684379903555885, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1684379903555888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379901592102, "dur":550, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379901592652, "dur":6168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379901598836, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684379901599744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379901601031, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684379901604159, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684379901604740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379901604947, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684379901606599, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379901607066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379901607210, "dur":1781352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903388578, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903389213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903389218, "dur":4678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903393930, "dur":17556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903411489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903411494, "dur":6038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903417564, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903418117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903418122, "dur":11360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903429498, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903430364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903430370, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903433135, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903433543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903433547, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903437924, "dur":17614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903455542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903455549, "dur":53878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684379903509453, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684379903509765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903509770, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684379903512338, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684379903512359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903512363, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684379903515156, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1684379903515182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903515186, "dur":4601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1684379903519801, "dur":4905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684379903524713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684379903524728, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684379903526259, "dur":29672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379901592144, "dur":517, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379901592661, "dur":6160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379901598836, "dur":1751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1684379901600590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379901600643, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1684379901604377, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684379901604810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379901604814, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684379901606394, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684379901606647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379901606852, "dur":8770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684379901615870, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379901616356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379901616369, "dur":1776125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903392509, "dur":2051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903394562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903394568, "dur":7273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903401859, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903402373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903402380, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903404990, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903405412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903405417, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903411041, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903411567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903411571, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903416756, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903417777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903417782, "dur":11956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903429749, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903430176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903430180, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903432806, "dur":2604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903435413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903435418, "dur":15542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684379903450971, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684379903450984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903450988, "dur":57843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684379903508857, "dur":2879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1684379903511741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684379903511749, "dur":11640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1684379903523422, "dur":32488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379901592177, "dur":489, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379901592666, "dur":6160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379901598850, "dur":2078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684379901600932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379901600946, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684379901604477, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1684379901604916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379901604922, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1684379901607587, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379901608010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379901608014, "dur":1782829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903390863, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903391880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903391886, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903395833, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903396310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903396314, "dur":7626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903403956, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903404449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903404455, "dur":4836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903409311, "dur":1089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903410403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903410411, "dur":4622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903415053, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903415572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903415579, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903418561, "dur":15217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903433781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903433785, "dur":5408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684379903439208, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684379903439223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903439250, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684379903441224, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684379903441263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903441267, "dur":65377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684379903506664, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684379903506682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684379903506689, "dur":19625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684379903526326, "dur":29600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379901592203, "dur":466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379901592670, "dur":6161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379901598837, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684379901599755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379901600536, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684379901604527, "dur":201897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379901806428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379901806435, "dur":141916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379901948435, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379901948757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379901948789, "dur":1446165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903394969, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903395512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903395554, "dur":9117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903404686, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903405113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903405118, "dur":6015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903411149, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903411757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903411761, "dur":3246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903415026, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903415467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903415471, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903418037, "dur":15369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903433409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903433414, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903437418, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903438286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903438290, "dur":3897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684379903442205, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684379903442224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903442229, "dur":71834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684379903514100, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1684379903514155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903514261, "dur":4953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1684379903519238, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684379903519264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684379903519271, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684379903521210, "dur":34702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379901592233, "dur":442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379901592675, "dur":6151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379901598837, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684379901599757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379901600542, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684379901604629, "dur":28728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684379901633361, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379901633368, "dur":8059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684379901641535, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379901641949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379901641955, "dur":1751123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903393101, "dur":2851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903395955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379903395962, "dur":14201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903410175, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903410576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379903410590, "dur":4408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903415028, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903415539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379903415575, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903418730, "dur":2471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903421203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379903421208, "dur":25712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684379903446938, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684379903446957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379903446962, "dur":68504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684379903515481, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684379903515497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684379903515501, "dur":7801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684379903523322, "dur":32590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379901592261, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379901592680, "dur":6157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379901598837, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684379901599569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379901600518, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684379901604642, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684379901605590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379901605594, "dur":6377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684379901611985, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379901612315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379901612320, "dur":1779609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903391941, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903392624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903392628, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903396114, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903396546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903396550, "dur":7587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903404152, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903404685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903404690, "dur":6589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903411300, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903412065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903412070, "dur":4258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903416340, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903416795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903416800, "dur":10676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903427493, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903428090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903428098, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903431780, "dur":2789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903434573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903434579, "dur":17756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684379903452349, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1684379903452366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903452371, "dur":55231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1684379903507626, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1684379903507713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903507718, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1684379903511738, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684379903511757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903511761, "dur":3230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684379903515012, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1684379903515032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903515039, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1684379903518106, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1684379903518130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684379903518142, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1684379903520845, "dur":35072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379901592295, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379901592684, "dur":6144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379901598838, "dur":784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684379901599626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379901601060, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684379901604245, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1684379901604694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379901604946, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1684379901607496, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379901607914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379901607937, "dur":1786613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903394565, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903395011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379903395017, "dur":6722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903401791, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903402329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379903402334, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903404877, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903405476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379903405482, "dur":9304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903414798, "dur":1809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903416610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379903416614, "dur":10953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903427586, "dur":2004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903429593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379903429601, "dur":9779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684379903439493, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":9, "ts":1684379903439519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379903439523, "dur":67434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":9, "ts":1684379903506988, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684379903507011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684379903507017, "dur":13846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684379903520880, "dur":35035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379901592314, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379901592689, "dur":6146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379901598836, "dur":2043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684379901600882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379901600894, "dur":3041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684379901604102, "dur":1322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1684379901605426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379901605443, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1684379901606762, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379901607183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379901607271, "dur":1781155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903388471, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903388963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903388971, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903395475, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903396034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903396039, "dur":5624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903401676, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903402180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903402185, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903404394, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903404922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903404926, "dur":6659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903411600, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903412382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903412386, "dur":4308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903416710, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903417420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903417425, "dur":10116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903427564, "dur":3445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903431012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903431016, "dur":6431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903437462, "dur":4856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903442321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684379903442328, "dur":94376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684379903536719, "dur":19199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379901592345, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379901592697, "dur":6133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379901598836, "dur":1693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1684379901600532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379901600610, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1684379901604499, "dur":17696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379901622200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379901622426, "dur":5776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379901628304, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379901628705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379901628713, "dur":1762605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903391334, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903391881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903391886, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903394853, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903395325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903395330, "dur":6473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903401822, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903402386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903402391, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903405501, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903405971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903405974, "dur":5289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903411278, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903411701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903411706, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903415050, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903415576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903415580, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903418590, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903419197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903419202, "dur":12167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903431386, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903432259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903432265, "dur":5561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903437888, "dur":1184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903439075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903439081, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684379903443618, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":11, "ts":1684379903443639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903443645, "dur":65037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":11, "ts":1684379903508736, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1684379903508771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903508776, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1684379903511571, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684379903511588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684379903511596, "dur":14089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684379903525705, "dur":30228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379901592381, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379901592703, "dur":6120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379901598837, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1684379901599751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379901600528, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1684379901604241, "dur":1864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1684379901606132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379901606136, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1684379901607451, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379901607906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379901607928, "dur":1783198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903391147, "dur":2386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903393536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903393542, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903396986, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903397400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903397404, "dur":7585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903405003, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903405478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903405484, "dur":6128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903411704, "dur":1509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903413216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903413219, "dur":5583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903418816, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903419216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903419220, "dur":11303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903430537, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903431063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903431068, "dur":6285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903437368, "dur":809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903438181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903438189, "dur":6267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684379903444491, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684379903444579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903444583, "dur":64693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684379903516369, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1684379903516393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903516402, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1684379903519446, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Fodio/AWGH/AWGH_Build/Alien_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1684379903519470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684379903519474, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Fodio/AWGH/AWGH_Build/Alien_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1684379903521508, "dur":34420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684379903558980, "dur":1630, "ph":"X", "name": "ProfilerWriteOutput" }
+,

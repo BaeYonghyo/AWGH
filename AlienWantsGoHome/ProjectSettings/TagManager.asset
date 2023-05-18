@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Floor
+  - Wall
+  - Enemy
+  - DeskBlue
+  - ActionZone
+  - Fire
+  - Goal
+  - cnwjr
+  - Press
+  - GoldKey
+  - ghlwjs
+  - Drug
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Mask
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: back
+    uniqueID: 3876969329
+    locked: 0
+  - name: front
+    uniqueID: 3541586483
+    locked: 0
+  - name: On
+    uniqueID: 3608178313
+    locked: 0
